@@ -1,0 +1,34 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <body>
+    <p1>Accounts</p1>
+    <script src="XMLHHpRequest.js"></script>
+
+    <form action="/action_page.php">
+      <div>
+      <input type="button" onclick="getAllAccounts()" value="Get all Accounts"
+        <button class="btn btn-primary" Click </buttom></input>
+      </div>
+
+      <div>
+        Input id: <input type="number" id="idNum" class="number"><br>
+        <input type="button" onclick="getAnAccount(idNum)" value="Get an Account"
+          <button class="btn btn-primary" Click </buttom></input>
+        <input type="button" onclick="deleteAccount(idNum)" value="Delete an Account"
+          <button class="btn btn-primary" Click </buttom></input>
+        <input type="button" onclick="updateAccount(idNum)" value="Update an Account"
+          <button class="btn btn-primary" Click </buttom></input>
+        <input type="button" onclick="createAccount()" value="Create an Account"
+          <button class="btn btn-primary" Click </buttom></input>
+      </div>
+    </form>
+
+    <p>Result =
+      <span id="result"></span>
+    </p>
+
+
+  </body>
+</link>
+</html>

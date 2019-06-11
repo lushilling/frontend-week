@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+ background-image: radial-gradient(red,orange,yellow,green,blue,indigo,violet);
+}
+
+
+
+p1{
+  font-size:24px;
+  margin: 40;
+  text-decoration: underline;
+
+}
+
+p2{
+  font-size:24px;
+  margin: 40;
+  padding: 10;
+  border: 10px outset grey;
+  background-color:black;
+  color: white;
+  border-color: grey;
+  /* border-style: groove;
+  border-color: orange;
+  border-width:thick; */
+}
+
+.btn-primary{
+  background-color: purple;
+  margin: 10;
+  border-radius: 12px;
+  border-color: purple;
+  margin-top: 40;
+  margin-bottom: 40;
+}
+
+.btn-primary:hover {
+  background-color:black;
+  color: white;
+  border-color: black;
+}
+
+.number{
+  font-size: 20
+  padding: 10;
+  margin: 10;
+}

@@ -1,23 +1,30 @@
 <html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css" type="text/css"></link>
 
   <body>
-    <<p>Simple Calcultor</p>
-    <script src="functions.js">
-
+    <p1>Simple Calculator</p1>
+    <script src="functions.js" >
     </script>
+
     <form action="/action_page.php">
-      Number 1: <input type="number" id="number1" ><br>
-      Number 2: <input type="number" id="number2"><br>
-      <input type="button" onclick="Add(number1, number2)" value="+" ></input>
-      <input type="button" onclick="Subraction(number1, number2)" value="-"> </input>
-      <input type="button" onclick="Multiplication(number1, number2)" value="x"> </input>
-      <input type="button" onclick="Division(number1, number2)" value="/"> </input>
-      <input type="button" onclick="Power(number1, number2)" value="^"> </input>
+      Number 1: <input type="number" id="number1" class="number"><br>
+      Number 2: <input type="number" id="number2" class="number"><br>
+      <input type="button" onclick="Add(number1, number2)" value="+"
+        <button class="btn btn-primary" Click </buttom></input>
+      <input type="button" onclick="Subraction(number1, number2)" value="-"
+        <button class="btn btn-primary" Click </buttom> </input>
+      <input type="button" onclick="Multiplication(number1, number2)" value="x"
+        <button class="btn btn-primary" Click</buttom> </input>
+      <input type="button" onclick="Division(number1, number2)" value="/"
+        <button class="btn btn-primary" Click </buttom> </input>
+      <input type="button" onclick="Power(number1, number2)" value="^"
+        <button class="btn btn-primary" Click</buttom> </input>
     </form>
 
-    <p> Result =
+    <p2> Result =
       <span id="Result"> </span>
-    </p>
+    </p2>
   </body>
-
+</link>
 </html>
