@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+}
+p1{
+  font-size:24px;
+  margin: 40;
+  text-decoration: underline;
+}
+
+.btn-primary{
+  background-color: purple;
+  margin: 10;
+  border-radius: 12px;
+  border-color: purple;
+  margin-top: 10;
+  margin-bottom: 10;
+}
+
+.btn-primary:hover {
+  background-color:black;
+  color: white;
+  border-color: black;
+}
